@@ -1,14 +1,27 @@
 [
     {
-        "projectName": "Date Night"
+        "projectName": "Date Night",
+        "projectImage": "date-night.PNG",
+        "projectURL": "https://sfzmango.github.io/date-night-and-chill/"
     },
     {
-        "projectName": "Tech Blog"
+        "projectName": "Tech Blog",
+        "projectImage": "techblog.PNG",
+        "projectURL": "https://immense-sierra-44243.herokuapp.com/"
     },
     {
-        "projectName": "Subscribe-O-Matic"
+        "projectName": "Subscribe-O-Matic",
+        "projectImage": "subscribe-o-matic.gif",
+        "projectURL": "https://subscribe-o-matic.herokuapp.com/"
     }, 
     {
-        "projectName": "weatherDashboard"
+        "projectName": "Weather Dashboard",
+        "projectImage": "sanfran_search.PNG",
+        "projectURL": "https://sambalogna.github.io/weatherDashboard/"
+    },
+    {
+        "projectName": "Random Password",
+        "projectImage": "random_password.PNG",
+        "projectURL": "https://sambalogna.github.io/RandomPassword/"
     }
 ]

@@ -14,6 +14,14 @@ Project.init(
         projectName: {
             type: DataTypes.STRING,
             allowNull: false,
+        },
+        projectImage: {
+            type: DataTypes.STRING,
+            allowNull: false,
+        }, 
+        projectURL: {
+            type: DataTypes.STRING,
+            allowNull: false,
         }
     },
     {

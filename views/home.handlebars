@@ -1,7 +1,10 @@
-<div class="projects">
-    <ul>
+<div class="list-group">
         {{#each projects as |project|}}
-        <li>{{project.projectName}}</li>
+        <a href="{{projectURL}}" class="list-group-item list-group-item-action active">
+            <div class="d-flex w-100 justify-content-between"> 
+            <h5 class="mb-1">{{project.projectName}}</h5>
+            </div> 
+            <p class="mb-1"><img src="/assets/{{project.projectImage}}" class="img-fluid rounded" alt="Responsive image" width="200px" height="200px"></p>  
+        </a>
         {{/each}}
-    </ul>
 </div>
