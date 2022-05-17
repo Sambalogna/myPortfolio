@@ -1,3 +1,7 @@
 <div class="projects">
-    
+    <ul>
+        {{#each projects as |project|}}
+        <li>{{project.projectName}}</li>
+        {{/each}}
+    </ul>
 </div>
