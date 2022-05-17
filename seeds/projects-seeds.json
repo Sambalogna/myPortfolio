@@ -2,26 +2,31 @@
     {
         "projectName": "Date Night",
         "projectImage": "date-night.PNG",
-        "projectURL": "https://sfzmango.github.io/date-night-and-chill/"
+        "projectURL": "https://sfzmango.github.io/date-night-and-chill/",
+        "description": "Create a random date with randomly selected data ideas."
     },
     {
         "projectName": "Tech Blog",
         "projectImage": "techblog.PNG",
-        "projectURL": "https://immense-sierra-44243.herokuapp.com/"
+        "projectURL": "https://immense-sierra-44243.herokuapp.com/",
+        "description": "A simple blog for where users can sign up and post to the home page."
     },
     {
         "projectName": "Subscribe-O-Matic",
         "projectImage": "subscribe-o-matic.gif",
-        "projectURL": "https://subscribe-o-matic.herokuapp.com/"
+        "projectURL": "https://subscribe-o-matic.herokuapp.com/",
+        "description": "Subscribe to a team and recieve an email."
     }, 
     {
         "projectName": "Weather Dashboard",
         "projectImage": "sanfran_search.PNG",
-        "projectURL": "https://sambalogna.github.io/weatherDashboard/"
+        "projectURL": "https://sambalogna.github.io/weatherDashboard/",
+        "description": "Check the weather by search!"
     },
     {
         "projectName": "Random Password",
         "projectImage": "random_password.PNG",
-        "projectURL": "https://sambalogna.github.io/RandomPassword/"
+        "projectURL": "https://sambalogna.github.io/RandomPassword/",
+        "description": "A simple web app to generate a password to your specifications"
     }
 ]

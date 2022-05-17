@@ -1,10 +1,14 @@
-<div class="list-group">
-        {{#each projects as |project|}}
-        <a href="{{projectURL}}" class="list-group-item list-group-item-action active">
-            <div class="d-flex w-100 justify-content-between"> 
-            <h5 class="mb-1">{{project.projectName}}</h5>
-            </div> 
-            <p class="mb-1"><img src="/assets/{{project.projectImage}}" class="img-fluid rounded" alt="Responsive image" width="200px" height="200px"></p>  
-        </a>
-        {{/each}}
+<div class="container">
+    <div class="row ">
+{{#each projects as |project|}}
+<div class="card col-md-4" style="width: 18rem;">
+    <img src="/assets/{{project.projectImage}}" class="card-img-top" alt="projects" height="200px" width="200px">
+    <div class="card-body">
+        <h5 class="card-title">{{project.projectName}}</h5>
+        <p class="card-text">{{description}}</p>
+        <a href="{{projectURL}}" class="btn btn-primary">Visit {{project.projectName}}</a>
+  </div>
+</div>
+{{/each}}
+    </div>
 </div>
