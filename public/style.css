@@ -1,5 +1,9 @@
 body {
     background-color: aliceblue;
+    
+}
+#myName{
+    font-family: 'Oswald', sans-serif;
 }
 
 .card {
@@ -13,10 +17,19 @@ footer{
     width: 100%;
     color: aliceblue;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
    
 }
 
 footer li {
     list-style: none;
     display: inline;
+    
+}
+footer li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+footer li a:hover {
+    color:crimson
 }

@@ -6,12 +6,15 @@
   <title>Samuel's Portfolio</title>
   <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="/style.css">
 </head>
 
 <body>
     <header>
-        <h1>Samuel Mandel</h1>
+        <h1 id="myName">Samuel Mandel</h1>
     </header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,9 +25,9 @@
           <li class="nav-item active">
             <a class="nav-link" href="#projects">Projects <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About me</a>
-          </li>
+          {{!-- <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li> --}}
           <li class="nav-item">
             <a class="nav-link" href="#contactMe">Contact Me</a>
           </li>
@@ -32,21 +35,23 @@
       </div>
     </nav>
     <main class="container-fluid">
-       <section>
+       {{!-- <section>
       <aside>
         <h2 id="about">About Me</h2>
       </aside>
       <div></div>
       </section>
-      <hr>
+       --}}
       <section>
       <aside>
         <h2 id="projects">Projects</h2>
+        <hr>
       </aside>
       <div class="projects" >
         {{{body}}}
       </div>
       </section>
+      
       {{!-- <section>
       <aside>
         <h2 id="skills">Skills</h2>
