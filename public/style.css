@@ -6,3 +6,17 @@ body {
     padding: 1%;
     margin: 2%;
 }
+footer{
+    position: relative;
+    left:0;
+    bottom: 0;
+    width: 100%;
+    color: aliceblue;
+    text-align: center;
+   
+}
+
+footer li {
+    list-style: none;
+    display: inline;
+}
